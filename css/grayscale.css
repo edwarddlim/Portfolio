@@ -43,6 +43,7 @@ a {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+  padding-bottom: 30px;
 }
 a:hover,
 a:focus {
@@ -224,7 +225,7 @@ a:focus {
   width: 100%;
   padding: 50px 0;
   color: white;
-  background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+  background: url(../img/bg.jpg) no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -312,3 +313,13 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
 }
+
+.portfolio-box {
+  position: relative;
+  display: block;
+  max-height: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+
