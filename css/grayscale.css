@@ -320,7 +320,6 @@ body {
 .portfolio-box {
   position: relative;
   display: block;
-  max-height: 550px;
   margin: 0 auto;
 }
 
