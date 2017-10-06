@@ -125,7 +125,6 @@ a:focus {
   display: table;
   width: 100%;
   height: auto;
-  padding: 100px 0;
   text-align: center;
   color: white;
   background: url(../img/header111.jpg) no-repeat bottom center scroll;
@@ -226,12 +225,10 @@ a:focus {
     transform: scale(1);
   }
 }
-.content-section {
-  padding-top: 100px;
-}
+
 .download-section {
   width: 100%;
-  padding: 50px 0;
+  padding: 30px 0;
   color: white;
   background: url(../img/bg.jpg) no-repeat center center scroll;
   background-color: black;
@@ -250,9 +247,6 @@ a:focus {
   .content-section {
     padding-top: 130px;
   }
-  /*.download-section {
-    padding: 50px 0;
-  }*/
 }
 .btn {
   text-transform: uppercase;
