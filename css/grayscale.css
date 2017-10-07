@@ -231,7 +231,7 @@ a:focus {
   }
 }
 .content-section {
-  padding-top: 100px;
+  padding-top: 80px;
 }
 .download-section {
   width: 100%;
@@ -252,7 +252,7 @@ a:focus {
 
 @media (min-width: 767px) {
   .content-section {
-    padding-top: 130px;
+    padding-top: 100px;
   }
   /*.download-section {
     padding: 50px 0;
@@ -352,7 +352,6 @@ body {
     text-align: center;
     transform: translateY(-50%);
     background-color: #42DCA3;
-    /*background-color: #ffffff;*/
   }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
@@ -370,7 +369,6 @@ body {
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
     font-size: 22px;
 }
-
 .portfolio-box:hover .portfolio-box-caption {
     opacity: 1;
 }
