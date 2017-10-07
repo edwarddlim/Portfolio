@@ -78,6 +78,10 @@ a:focus {
 .navbar-custom .navbar-brand:focus {
   outline: none;
 }
+.navbar-custom .navbar-brand:hover {
+  outline: none;  
+  color: #42DCA3;
+}
 .navbar-custom a {
   color: white;
 }
