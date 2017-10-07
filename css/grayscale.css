@@ -121,7 +121,7 @@ a:focus {
     transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
   }
   .navbar-custom.top-nav-collapse {
-    padding: 0 20px;
+    padding: 0 10px;
     background: black;
     border-bottom: 3px solid #42DCA3;
   }
@@ -133,7 +133,7 @@ a:focus {
   padding: 100px 0;
   text-align: center;
   color: white;
-  background: url(../img/header111.jpg) no-repeat bottom center scroll;
+  background: url(../img/vulcano.jpg) no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -238,7 +238,7 @@ a:focus {
   width: 100%;
   padding: 50px 0;
   color: white;
-  background: url(../img/vulcano.jpg) no-repeat center center scroll;
+  background: url(../img/chapter.jpg) no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
