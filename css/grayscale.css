@@ -104,7 +104,8 @@ a:focus {
   outline: none;
 }
 .navbar-custom .nav li.active a {
-  background-color: rgba(255, 255, 255, 0.3);
+  /*background-color: rgba(255, 255, 255, 0.3);*/
+  background-color: #42DCA3;
 }
 .navbar-custom .nav li.active a:hover {
   color: white;
@@ -122,7 +123,7 @@ a:focus {
   .navbar-custom.top-nav-collapse {
     padding: 0 20px;
     background: black;
-    border-bottom: 3px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 3px solid #42DCA3;
   }
 }
 .intro {
@@ -237,7 +238,7 @@ a:focus {
   width: 100%;
   padding: 50px 0;
   color: white;
-  background: url(../img/bg.jpg) no-repeat center center scroll;
+  background: url(../img/vulcano.jpg) no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -339,9 +340,9 @@ body {
     text-align: center;
     color: #ffffff;
     opacity: 0;   
-    -webkit-transition: all .35s;
-    -moz-transition: all .35s;
-    transition: all .35s;
+    -webkit-transition: all .50s;
+    -moz-transition: all .50s;
+    transition: all .50s;
     background-color: #42DCA3;
 }
 
