@@ -105,7 +105,7 @@ a:focus {
 }
 .navbar-custom .nav li.active a {
   /*background-color: rgba(255, 255, 255, 0.3);*/
-  background-color: #42DCA3;
+  background-color: #224F40;
 }
 .navbar-custom .nav li.active a:hover {
   color: white;
@@ -120,11 +120,11 @@ a:focus {
     -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
     transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
   }
-  .navbar-custom.top-nav-collapse {
+  /*.navbar-custom.top-nav-collapse {
     padding: 0 10px;
     background: black;
-    border-bottom: 3px solid #42DCA3;
-  }
+    border-bottom: 3px solid #0F9F71;
+  }*/
 }
 .intro {
   display: table;
