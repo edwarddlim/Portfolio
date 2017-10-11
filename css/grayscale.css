@@ -120,11 +120,11 @@ a:focus {
     -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
     transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
   }
-  /*.navbar-custom.top-nav-collapse {
-    padding: 0 10px;
+  .navbar-custom.top-nav-collapse {
+    padding: 0 20px;
     background: black;
-    border-bottom: 3px solid #0F9F71;
-  }*/
+    border-bottom: 2px solid #224F40;
+  }
 }
 .intro {
   display: table;
