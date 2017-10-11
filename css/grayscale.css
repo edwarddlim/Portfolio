@@ -231,9 +231,9 @@ a:focus {
     transform: scale(1);
   }
 }
-.content-section {
+/*.content-section {
   padding-top: 80px;
-}
+}*/
 .download-section {
   width: 100%;
   padding: 50px 0;
@@ -254,10 +254,14 @@ a:focus {
 @media (min-width: 767px) {
   .content-section {
     padding-top: 100px;
+    padding-bottom: 35px;
   }
   /*.download-section {
     padding: 50px 0;
   }*/
+  .contentskills-section {
+    padding-top: 50px;
+  }
 }
 .btn {
   text-transform: uppercase;
