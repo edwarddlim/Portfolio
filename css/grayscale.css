@@ -7,8 +7,8 @@ body {
   width: 100%;
   height: 100%;
   font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: #F3F3F3;
 }
 html {
   width: 100%;
@@ -64,7 +64,7 @@ a:focus {
   background-color: black;
 }
 .navbar-custom .navbar-toggle {
-  color: white;
+  color: black;
   background-color: rgba(255, 255, 255, 0.2);
   font-size: 12px;
 }
@@ -82,8 +82,8 @@ a:focus {
   outline: none;  
   color: #42DCA3;
 }
-.navbar-custom a {
-  color: white;
+/*.navbar-custom a {
+  color: white;*/
 }
 .navbar-custom .nav li a {
   -webkit-transition: background 0.3s ease-in-out;
@@ -109,7 +109,7 @@ a:focus {
   background-color: transparent;
 }
 .navbar-custom .nav li.active a:hover {
-  color: white;
+  color: black;
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -123,7 +123,7 @@ a:focus {
   }
   .navbar-custom.top-nav-collapse {
     padding: 0 20px;
-    background: black;
+    background: #F3F3F3;
     /*border-bottom: 2px solid #224F40;*/
   }
 }
@@ -261,7 +261,7 @@ a:focus {
     padding: 50px 0;
   }*/
   .contentskills-section {
-    padding-top: 50px;
+    padding-top: 60px;
   }
 }
 .btn {
@@ -274,8 +274,13 @@ a:focus {
   border-radius: 0;
 }
 .btn-default {
-  border: 1px solid white;
+  border: 1px solid #42DCA3;
   color: #42DCA3;
+  background-color: transparent;
+}
+.btn-default1 {
+  border: 1px solid white;
+  color: white;
   background-color: transparent;
 }
 .btn-default:hover,
@@ -283,7 +288,14 @@ a:focus {
   border: 1px solid #42DCA3;
   outline: none;
   color: black;
-  background-color: #42DCA3;
+  background-color: #42DCA3;  
+}
+.btn-default1:hover,
+.btn-default1:focus{
+  border: 1px solid #42DCA3;
+  outline: none;
+  color: black;
+  background-color: #42DCA3; 
 }
 ul.banner-social-buttons {
   margin-top: 0;
