@@ -282,11 +282,13 @@ a:focus {
   border: 1px solid #42DCA3;
   color: #42DCA3;
   background-color: transparent;
+  border-radius: 8px;
 }
 .btn-default1 {
   border: 1px solid white;
   color: white;
   background-color: transparent;
+  border-radius: 8px;
 }
 .btn-default:hover,
 .btn-default:focus {
@@ -366,6 +368,7 @@ body {
     -moz-transition: all .50s;
     transition: all .50s;
     background-color: #42DCA3;
+    border-radius: 8px;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
@@ -422,3 +425,4 @@ body {
 .fa-star-o {
   color: #42DCA3;
 }
+
