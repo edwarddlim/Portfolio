@@ -33,433 +33,457 @@
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
+    <div class="spinner-wrapper">
+        <div class="spinner">
+            <div class="rect1"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+            <div class="rect4"></div>
+            <div class="rect5"></div>
+        </div>
+    </div>   
+     
     <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <!-- <div class="container"> -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
-                    <!-- <i class="fa fa-play-circle"></i> --> <span class="light">Home</span>
-                </a>
+        <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+            <!-- <div class="container"> -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                        Menu <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand page-scroll" href="#page-top">
+                        <!-- <i class="fa fa-play-circle"></i> --> <span class="light">Home</span>
+                    </a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                    <ul class="nav navbar-nav">
+                        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                        <li class="hidden">
+                            <a href="#page-top"></a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#project">Projects</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#skill">Skills</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#about">About</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            <!-- </div> -->
+            <!-- /.container -->
+        </nav>
+
+        <!-- Intro Header -->
+        <header class="intro">
+            <div class="intro-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
+                            <h1 class="brand-heading">Edward Lim</h1>
+                            <p class="intro-text">User Experience/ User Interface/ User Research</p>
+                            <ul class="list-inline banner-social-buttons">
+                                <li>
+                                    <a href="resume/EdwardLimResume.pdf" class="btn btn-default1 btn-lg"><i class="fa fa-file fa-fw"></i> <span class="network-name">Resume</span></a>
+                                </li>
+                                <!-- <li>
+                                    <a href="resume/EdwardLimWorkResume.pdf" class="btn btn-default btn-lg"><i class="fa fa-file fa-fw" style="color:white"></i> <span class="network-name" style="color:white">Work Resume</span></a>
+                                </li> -->
+                            </ul>
+                        <!-- <br>
+                            <a href="#project" class="btn btn-circle page-scroll">
+                                <i class="fa fa-angle-double-down animated"></i>
+                            </a> -->
+                        </div>
+                    </div>  
+                </div>
             </div>
+        </header>   
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#project">Projects</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#skill">Skills</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        <!-- </div> -->
-        <!-- /.container -->
-    </nav>
-
-    <!-- Intro Header -->
-    <header class="intro">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">Edward Lim</h1>
-                        <p class="intro-text">User Experience/ User Interface/ User Research</p>
-                        <ul class="list-inline banner-social-buttons">
-                            <li>
-                                <a href="resume/EdwardLimResume.pdf" class="btn btn-default1 btn-lg"><i class="fa fa-file fa-fw"></i> <span class="network-name">Resume</span></a>
-                            </li>
-                            <!-- <li>
-                                <a href="resume/EdwardLimWorkResume.pdf" class="btn btn-default btn-lg"><i class="fa fa-file fa-fw" style="color:white"></i> <span class="network-name" style="color:white">Work Resume</span></a>
-                            </li> -->
-                        </ul>
-                    <!-- <br>
-                        <a href="#project" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a> -->
-                    </div>
-                </div>  
-            </div>
-        </div>
-    </header>   
-
-    <section id="project" class="container content-section text-center">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Projects</h2>
-                </div>
-            </div>  
-            <div class="row"> 
-                <div class="col-lg-6 col-md-6 col-sm-4"> <!-- DONE WITH CONTENT-->
-                    <a href="https://medium.com/@edwarddlim/sunday-night-dinner-craft-services-760ece28afb4" onclick="window.open('https://oscarpan.github.io/snd/');" class="portfolio-box">
-                        <img src="img/4.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Mobile and Desktop Application
-                                </div>
-                                <div class="project-name">
-                                    Sunday Night Dinner Craft Services
-                                </div>
-                            </div>
-                        </div>         
-                    </a>
-                </div>  
-                <div class="col-lg-6 col-md-6 col-sm-4"> <!-- DONE WITH CONTENT -->
-                    <a href="https://medium.com/@edwarddlim/data-analysis-project-https-docs-google-com-presentation-d-1si-2pi-if-ut-rob-4938f97762b1" class="portfolio-box">
-                        <img src="img/3.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Data Analysis
-                                </div>
-                                <div class="project-name">
-                                    San Diego County Crime Incidents
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-           <!-- DONE WITH CONTENT -->
-                <div class="col-lg-6 col-md-6 col-sm-4">
-                    <a href="https://medium.com/@edwarddlim/usability-evaluation-a703581666a9" class="portfolio-box">
-                        <img src="img/1.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Usability Evaluation
-                                </div>
-                                <div class="project-name">
-                                    Website Heuristic Error Evaluation
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-4"> <!-- DONE WITH CONTENT -->
-                    <a href="https://medium.com/@edwarddlim/information-architecture-university-of-alaska-anchorage-9c9e9305994a" onclick="window.open('pdf/UAARedesign.pdf');" class="portfolio-box">
-                        <img src="img/2.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Information Architecture
-                                </div>
-                                <div class="project-name">
-                                    University of Alaska, Anchorage
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-4"> <!-- DONE WITH CONTENT -->
-                    <a href="https://medium.com/@edwarddlim/juice-449468e4829a#.ijsp3rtt2" class="portfolio-box">
-                        <img src="img/6.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Usability Evaluation and Wireframe
-                                </div>
-                                <div class="project-name">
-                                    Juice
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-4"> <!-- DONE? NEED MEDIUM BLOG DO I WANT TO SOMEHOW LINK GOOGLE DRIVE WIREFRAMES/INTERVIEWS/ETC? -->
-                    <a href="https://fido-tracker.herokuapp.com/home" class="portfolio-box">
-                        <img src="img/5.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Mobile Application
-                                </div>
-                                <div class="project-name">
-                                    Fido
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div> 
-        </div>
-        <!-- <br>
-         <a href="#download" class="btn btn-circle page-scroll">
-            <i class="fa fa-angle-double-down animated"></i>
-        </a> -->
-    </section>
-
-<!-- Download Section -->
-    <section id="skill" class="contentskills-section text-center">
-        <div class="skill-section">
-            <div class="container">
+        <section id="project" class="container content-section text-center">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <h2>Skills</h2>
-                    </div> 
-                </div>       
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 text-center">
-                        <div class="service-box">
-                            <i class="fa fa-4x fa-code text-primary sr-icons" style="color: #42DCA3"></i>
-                            <h3>Programming/ Applications</h3>
-                                  
-                            <p class="text-muted" style="color: white">MatLab</p>
-                                <div class="bar">
-                                </div>
-                                <div class="barfill">
-                                </div>
-                                <div class="barfill">  
-                                </div>
-                                <div class="barfill">             
-                                </div>
-                                <div class="barfill">
-                                </div>
-                                  
-                            <p class="text-muted" style="color: white">HTML</p>
-                                <div class="bar">
-                                </div>
-                                <div class="bar">
-                                </div>
-                                <div class="barfill">  
-                                </div>
-                                <div class="barfill">             
-                                </div>
-                                <div class="barfill">
-                                </div>
-                            <p class="text-muted" style="color: white">CSS</p>
-                                <div class="bar">
-                                </div>
-                                <div class="bar">
-                                </div>
-                                <div class="barfill">  
-                                </div>
-                                <div class="barfill">             
-                                </div>
-                                <div class="barfill">
-                                </div>
-                            <!-- <p class="text-muted" style="color: white">BootStrap <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i>
-                            </p> -->
-                           <!--  <p class="text-muted" style="color: white">Java <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i>
-                            </p> -->
-                        </div>
+                        <h2>Projects</h2>
                     </div>
-                    <div class="col-lg-4 col-md-6 text-center">
-                        <div class="service-box">
-                            <i class="fa fa-4x fa-pencil text-primary sr-icons" style="color: #42DCA3"></i>
-                            <h3>Wireframing Applications</h3>  
-                            <p class="text-muted" style="color: white">Adobe Experience Design
-                            </p>
-                                <div class="bar">
+                </div>  
+                <div class="row"> 
+                    <div class="col-lg-6 col-md-6 col-sm-4"> <!-- DONE WITH CONTENT-->
+                        <a href="https://medium.com/@edwarddlim/sunday-night-dinner-craft-services-760ece28afb4" onclick="window.open('https://oscarpan.github.io/snd/');" class="portfolio-box">
+                            <img src="img/4.jpg" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Mobile and Desktop Application
+                                    </div>
+                                    <div class="project-name">
+                                        Sunday Night Dinner Craft Services
+                                    </div>
                                 </div>
-                                <div class="barfill">
+                            </div>         
+                        </a>
+                    </div>  
+                    <div class="col-lg-6 col-md-6 col-sm-4"> <!-- DONE WITH CONTENT -->
+                        <a href="https://medium.com/@edwarddlim/data-analysis-project-https-docs-google-com-presentation-d-1si-2pi-if-ut-rob-4938f97762b1" class="portfolio-box">
+                            <img src="img/3.jpg" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Data Analysis
+                                    </div>
+                                    <div class="project-name">
+                                        San Diego County Crime Incidents
+                                    </div>
                                 </div>
-                                <div class="barfill">  
-                                </div>
-                                <div class="barfill">             
-                                </div>
-                                <div class="barfill">
-                                </div>
-                            <p class="text-muted" style="color: white">Invision
-                            </p>
-                                <div class="bar">
-                                </div>
-                                <div class="barfill">
-                                </div>
-                                <div class="barfill">  
-                                </div>
-                                <div class="barfill">             
-                                </div>
-                                <div class="barfill">
-                                </div>
-                            <p class="text-muted" style="color: white">Balsamiq 
-                            </p>
-                                <div class="bar">
-                                </div>
-                                <div class="barfill">
-                                </div>
-                                <div class="barfill">  
-                                </div>
-                                <div class="barfill">             
-                                </div>
-                                <div class="barfill">
-                                </div>
-                            <p class="text-muted" style="color: white">Sketch
-                            </p>
-                                <div class="bar">
-                                </div>
-                                <div class="bar">
-                                </div>
-                                <div class="barfill">  
-                                </div>
-                                <div class="barfill">             
-                                </div>
-                                <div class="barfill">
-                                </div>
-                            <p class="text-muted" style="color: white">Axure
-                            </p>
-                                <div class="bar">
-                                </div>
-                                <div class="bar">
-                                </div>
-                                <div class="bar">  
-                                </div>
-                                <div class="barfill">             
-                                </div>
-                                <div class="barfill">
-                                </div>
-                        </div>
+                            </div>
+                        </a>
                     </div>
-                    <div class="col-lg-4 col-md-6 text-center">
-                        <div class="service-box">
-                            <i class="fa fa-4x fa-calendar text-primary sr-icons" style="color: #42DCA3"></i>
-                            <h3>Everyday skills/ Language</h3>
-                            <p class="text-muted" style="color: white">Customer Service
-                            </p>
-                                <div class="barfill">
+               <!-- DONE WITH CONTENT -->
+                    <div class="col-lg-6 col-md-6 col-sm-4">
+                        <a href="https://medium.com/@edwarddlim/usability-evaluation-a703581666a9" class="portfolio-box">
+                            <img src="img/1.jpg" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Usability Evaluation
+                                    </div>
+                                    <div class="project-name">
+                                        Website Heuristic Error Evaluation
+                                    </div>
                                 </div>
-                                <div class="barfill">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-4"> <!-- DONE WITH CONTENT -->
+                        <a href="https://medium.com/@edwarddlim/information-architecture-university-of-alaska-anchorage-9c9e9305994a" onclick="window.open('pdf/UAARedesign.pdf');" class="portfolio-box">
+                            <img src="img/2.jpg" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Information Architecture
+                                    </div>
+                                    <div class="project-name">
+                                        University of Alaska, Anchorage
+                                    </div>
                                 </div>
-                                <div class="barfill">  
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-4"> <!-- DONE WITH CONTENT -->
+                        <a href="https://medium.com/@edwarddlim/juice-449468e4829a#.ijsp3rtt2" class="portfolio-box">
+                            <img src="img/6.jpg" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Usability Evaluation and Wireframe
+                                    </div>
+                                    <div class="project-name">
+                                        Juice
+                                    </div>
                                 </div>
-                                <div class="barfill">             
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-4"> <!-- DONE? NEED MEDIUM BLOG DO I WANT TO SOMEHOW LINK GOOGLE DRIVE WIREFRAMES/INTERVIEWS/ETC? -->
+                        <a href="https://fido-tracker.herokuapp.com/home" class="portfolio-box">
+                            <img src="img/5.jpg" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Mobile Application
+                                    </div>
+                                    <div class="project-name">
+                                        Fido
+                                    </div>
                                 </div>
-                                <div class="barfill">
-                                </div>
-                            <p class="text-muted" style="color: white">Microsoft Office
-                            </p>
-                                <div class="bar">
-                                </div>
-                                <div class="barfill">
-                                </div>
-                                <div class="barfill">  
-                                </div>
-                                <div class="barfill">             
-                                </div>
-                                <div class="barfill">
-                                </div>
-                            <p class="text-muted" style="color: white">Korean
-                            </p>
-                                <div class="bar">
-                                </div>
-                                <div class="bar">
-                                </div>
-                                <div class="bar">  
-                                </div>
-                                <div class="barfill">             
-                                </div>
-                                <div class="barfill">
-                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div> 
+            </div>
+            <!-- <br>
+             <a href="#download" class="btn btn-circle page-scroll">
+                <i class="fa fa-angle-double-down animated"></i>
+            </a> -->
+        </section>
+
+    <!-- Download Section -->
+        <section id="skill" class="contentskills-section text-center">
+            <div class="skill-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 text-center">
+                            <h2>Skills</h2>
+                        </div> 
+                    </div>       
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 text-center">
+                            <div class="service-box">
+                                <i class="fa fa-4x fa-code text-primary sr-icons" style="color: #42DCA3"></i>
+                                <h3>Programming/ Applications</h3>
+                                      
+                                <p class="text-muted" style="color: white">MatLab</p>
+                                    <div class="bar">
+                                    </div>
+                                    <div class="barfill">
+                                    </div>
+                                    <div class="barfill">  
+                                    </div>
+                                    <div class="barfill">             
+                                    </div>
+                                    <div class="barfill">
+                                    </div>
+                                      
+                                <p class="text-muted" style="color: white">HTML</p>
+                                    <div class="bar">
+                                    </div>
+                                    <div class="bar">
+                                    </div>
+                                    <div class="barfill">  
+                                    </div>
+                                    <div class="barfill">             
+                                    </div>
+                                    <div class="barfill">
+                                    </div>
+                                <p class="text-muted" style="color: white">CSS</p>
+                                    <div class="bar">
+                                    </div>
+                                    <div class="bar">
+                                    </div>
+                                    <div class="barfill">  
+                                    </div>
+                                    <div class="barfill">             
+                                    </div>
+                                    <div class="barfill">
+                                    </div>
+                                <!-- <p class="text-muted" style="color: white">BootStrap <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i>
+                                </p> -->
+                               <!--  <p class="text-muted" style="color: white">Java <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i>
+                                </p> -->
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 text-center">
+                            <div class="service-box">
+                                <i class="fa fa-4x fa-pencil text-primary sr-icons" style="color: #42DCA3"></i>
+                                <h3>Wireframing Applications</h3>  
+                                <p class="text-muted" style="color: white">Adobe Experience Design
+                                </p>
+                                    <div class="bar">
+                                    </div>
+                                    <div class="barfill">
+                                    </div>
+                                    <div class="barfill">  
+                                    </div>
+                                    <div class="barfill">             
+                                    </div>
+                                    <div class="barfill">
+                                    </div>
+                                <p class="text-muted" style="color: white">Invision
+                                </p>
+                                    <div class="bar">
+                                    </div>
+                                    <div class="barfill">
+                                    </div>
+                                    <div class="barfill">  
+                                    </div>
+                                    <div class="barfill">             
+                                    </div>
+                                    <div class="barfill">
+                                    </div>
+                                <p class="text-muted" style="color: white">Balsamiq 
+                                </p>
+                                    <div class="bar">
+                                    </div>
+                                    <div class="barfill">
+                                    </div>
+                                    <div class="barfill">  
+                                    </div>
+                                    <div class="barfill">             
+                                    </div>
+                                    <div class="barfill">
+                                    </div>
+                                <p class="text-muted" style="color: white">Sketch
+                                </p>
+                                    <div class="bar">
+                                    </div>
+                                    <div class="bar">
+                                    </div>
+                                    <div class="barfill">  
+                                    </div>
+                                    <div class="barfill">             
+                                    </div>
+                                    <div class="barfill">
+                                    </div>
+                                <p class="text-muted" style="color: white">Axure
+                                </p>
+                                    <div class="bar">
+                                    </div>
+                                    <div class="bar">
+                                    </div>
+                                    <div class="bar">  
+                                    </div>
+                                    <div class="barfill">             
+                                    </div>
+                                    <div class="barfill">
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 text-center">
+                            <div class="service-box">
+                                <i class="fa fa-4x fa-calendar text-primary sr-icons" style="color: #42DCA3"></i>
+                                <h3>Everyday skills/ Language</h3>
+                                <p class="text-muted" style="color: white">Customer Service
+                                </p>
+                                    <div class="barfill">
+                                    </div>
+                                    <div class="barfill">
+                                    </div>
+                                    <div class="barfill">  
+                                    </div>
+                                    <div class="barfill">             
+                                    </div>
+                                    <div class="barfill">
+                                    </div>
+                                <p class="text-muted" style="color: white">Microsoft Office
+                                </p>
+                                    <div class="bar">
+                                    </div>
+                                    <div class="barfill">
+                                    </div>
+                                    <div class="barfill">  
+                                    </div>
+                                    <div class="barfill">             
+                                    </div>
+                                    <div class="barfill">
+                                    </div>
+                                <p class="text-muted" style="color: white">Korean
+                                </p>
+                                    <div class="bar">
+                                    </div>
+                                    <div class="bar">
+                                    </div>
+                                    <div class="bar">  
+                                    </div>
+                                    <div class="barfill">             
+                                    </div>
+                                    <div class="barfill">
+                                    </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+            <br>
+            <!-- <a href="#about" class="btn btn-circle page-scroll">
+                <i class="fa fa-angle-double-down animated"></i>
+            </a> -->
+        </section>
+
+
+        <!-- About Section -->
+        <section id="about" class="container content-section text-center">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>My Story</h2>
+                </div>    
+                <div class="col-lg-8 col-lg-offset-2">    
+                    <p><a href="https://www.facebook.com/edward.lim.965">Edward Ho Jun Lim</a>. Korean American. Born on August 5th, 1995 and raised in Koreatown, Los Angeles, California. 22 years old. Leo.</p>
+                    <p>I graduated from <a href="https://ucsd.edu/">University of California, San Diego</a> with a bachelor degree in <a href="http://www.cogsci.ucsd.edu/">Cognitive Science with a specialization in Human-Computer Interaction</a>. I am an aspiring User Experience/User Interface/User Research developer. I got into UX/UI and web design because I wanted to apply my creative side into a skill that really uses my full potential. Countless times, I struggle with navigating websites and for me to be a part of the kind that fixes usability errors, means that I can deliver intuitive work that comforts people.
+                    </p>
+                    <p>Well, I'll start with college. College has been an adventure. I did things I regret, and things that I don't. I went down paths I didn't even think of when I was in high school. I joined the <a href="http://www.sae.net/">Sigma Alpha Epsilon Fraternity</a>. I'm starting to play a lot more golf. I'm starting to drink a lot more, going out more. Just living my life a lot more. It's definitely been and continues to be an experience where I try to find myself and who I am and who I want to become.
+                    </p>    
+                    <p>But now that I have graduated from the "NeverLand" that is college, I have been more aware of my life goals and my career path(s). I want to be constantly engaged with my peers/colleagues. I want to accomplish daily tasks and know that at the end of the day, I can't wait to wake up the next day and start.  
+                    </p>
+                    <p>But one thing that I want now for sure is that I want to travel. Explore the seven seas and conquer my small fears that I have accumulated over the years. Experiencing the world first-hand, in my opinion, is the best way to learn and grow up to be more culturally aware, which is definitely something all of us need a little more in this time and age. 
+                    </p>
+                    <!-- <h2>A little extra something</h2>
+                    <p>This portfolio is not only about my UX/UI/UR projects, but about anything that I feel is necessary for you to know. Things about me and my hobbies, my friends, or anything else. This is my way of expressing my self the way I really feel. No restrictions.
+                    </p> -->
+                </div>
+            </div>
+            <!-- <br>
+            <a href="#contact" class="btn btn-circle page-scroll">
+                <i class="fa fa-angle-double-down animated"></i>
+            </a> -->
+        </section>
+       
+
+        <!-- Contact Section -->
+        <section id="contact" class="container content-section text-center">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>If you find me or my work interesting, let me hear from you!</h2>
+                    <!-- <p>Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p> -->
+                    <p class="contact"><a href="mailto:edwarddlim7@gmail.com">edwarddlim7@gmail.com</a>
+                    </p>
+                    <p class="contact1"><a>213-663-8400</a></p>
+                    <ul class="list-inline banner-social-buttons1">
+                        <li>
+                            <a href="https://www.facebook.com/edward.lim.965" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/edwarddlim7/" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">LinkedIn</span></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/edwarddlim" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/edwarddlim" class="btn btn-default btn-lg"><i class="fa fa-instagram fa-fw"></i> <span class="network-name">Instagram</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
         <br>
-        <!-- <a href="#about" class="btn btn-circle page-scroll">
-            <i class="fa fa-angle-double-down animated"></i>
-        </a> -->
-    </section>
+        <br>
+        <br>
+        <br>
+        <br>
 
-
-    <!-- About Section -->
-    <section id="about" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2>My Story</h2>
-            </div>    
-            <div class="col-lg-8 col-lg-offset-2">    
-                <p><a href="https://www.facebook.com/edward.lim.965">Edward Ho Jun Lim</a>. Korean American. Born on August 5th, 1995 and raised in Koreatown, Los Angeles, California. 22 years old. Leo.</p>
-                <p>I graduated from <a href="https://ucsd.edu/">University of California, San Diego</a> with a bachelor degree in <a href="http://www.cogsci.ucsd.edu/">Cognitive Science with a specialization in Human-Computer Interaction</a>. I am an aspiring User Experience/User Interface/User Research developer. I got into UX/UI and web design because I wanted to apply my creative side into a skill that really uses my full potential. Countless times, I struggle with navigating websites and for me to be a part of the kind that fixes usability errors, means that I can deliver intuitive work that comforts people.
-                </p>
-                <p>Well, I'll start with college. College has been an adventure. I did things I regret, and things that I don't. I went down paths I didn't even think of when I was in high school. I joined the <a href="http://www.sae.net/">Sigma Alpha Epsilon Fraternity</a>. I'm starting to play a lot more golf. I'm starting to drink a lot more, going out more. Just living my life a lot more. It's definitely been and continues to be an experience where I try to find myself and who I am and who I want to become.
-                </p>    
-                <p>But now that I have graduated from the "NeverLand" that is college, I have been more aware of my life goals and my career path(s). I want to be constantly engaged with my peers/colleagues. I want to accomplish daily tasks and know that at the end of the day, I can't wait to wake up the next day and start.  
-                </p>
-                <p>But one thing that I want now for sure is that I want to travel. Explore the seven seas and conquer my small fears that I have accumulated over the years. Experiencing the world first-hand, in my opinion, is the best way to learn and grow up to be more culturally aware, which is definitely something all of us need a little more in this time and age. 
-                </p>
-                <!-- <h2>A little extra something</h2>
-                <p>This portfolio is not only about my UX/UI/UR projects, but about anything that I feel is necessary for you to know. Things about me and my hobbies, my friends, or anything else. This is my way of expressing my self the way I really feel. No restrictions.
-                </p> -->
+        <!-- Footer -->
+        <footer>
+            <div class="container text-center">
+                <p>Copyright &copy; Edward Lim 2017</p>
             </div>
-        </div>
-        <!-- <br>
-        <a href="#contact" class="btn btn-circle page-scroll">
-            <i class="fa fa-angle-double-down animated"></i>
-        </a> -->
-    </section>
-   
+        </footer>
 
-    <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>If you find me or my work interesting, let me hear from you!</h2>
-                <!-- <p>Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p> -->
-                <p class="contact"><a href="mailto:edwarddlim7@gmail.com">edwarddlim7@gmail.com</a>
-                </p>
-                <p class="contact1"><a>213-663-8400</a></p>
-                <ul class="list-inline banner-social-buttons1">
-                    <li>
-                        <a href="https://www.facebook.com/edward.lim.965" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/edwarddlim7/" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">LinkedIn</span></a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/edwarddlim" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/edwarddlim" class="btn btn-default btn-lg"><i class="fa fa-instagram fa-fw"></i> <span class="network-name">Instagram</span></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
+        <!-- jQuery -->
+        <script src="vendor/jquery/jquery.js"></script>
 
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+        <!-- Bootstrap Core JavaScript -->
+        <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
-    <!-- Footer -->
-    <footer>
-        <div class="container text-center">
-            <p>Copyright &copy; Edward Lim 2017</p>
-        </div>
-    </footer>
+        <!-- Plugin JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
-    <!-- jQuery -->
-    <script src="vendor/jquery/jquery.js"></script>
+        <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
-
-    <!-- Theme JavaScript -->
-    <script src="js/grayscale.min.js"></script>
+        <!-- Theme JavaScript -->
+        <script src="js/grayscale.min.js"></script>
+        <script>
+            $(document).ready(function() {
+            //Preloader
+            $(window).load(function() {
+            preloaderFadeOutTime = 500;
+            function hidePreloader() {
+            var preloader = $('.spinner-wrapper');
+            preloader.fadeOut(preloaderFadeOutTime);
+            }
+            hidePreloader();
+            });
+            });
+        </script>
 
 </body>
+
 
 </html>
