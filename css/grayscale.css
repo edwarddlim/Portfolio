@@ -495,12 +495,12 @@ body {
 
 .spinner {
   position: absolute;
-  top: 48%;
-  left: 48%;
-  width: 80px;
-  height: 70px;
+  top: 47%;
+  left: 47%;
+  width: 60px;
+  height: 50px;
   text-align: center;
-  font-size: 40px;
+  font-size: 20px;
 }
 .spinner-wrapper {
   position: fixed;
@@ -514,7 +514,7 @@ body {
 .spinner > div {
   background-color: #fff;
   height: 100%;
-  width: 6px;
+  width: 7px;
   display: inline-block;
   
   -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
