@@ -42,13 +42,13 @@ h3 {
 p {
   margin: 0 0 10px;
   font-size: 18px;
-  /*line-height: 1;*/
+  line-height: 1;
   font-weight: bold;
 
 }
 @media (min-width: 768px) {
   p {
-    margin: 0 0 35px;
+    margin: 35px 0 0px;
     font-size: 20px;
     line-height: 1.6;
   }
@@ -308,6 +308,7 @@ a:focus {
   background-color: transparent;
   border-radius: 8px;
   letter-spacing: 1px;
+  margin-top: 50px;
 }
 .btn-default:hover,
 .btn-default:focus {
@@ -456,11 +457,38 @@ body {
 
 .contact {
   padding-top: 20px;
+  padding-bottom: 10px;
   font-size: 25px;
   letter-spacing: 1px;
 }
 .contact1 {
-  padding: 20px 0;
+  padding-bottom: 50px;
   font-size: 25px;
   letter-spacing: 1px;
+}
+
+.barfill {
+  border: 2px solid white;
+  height: 10px;
+  width: 40px;
+  float: right;
+  background-color: white;
+  margin-top: 5px;
+  margin-right: 4px;
+  margin-bottom: 10px;
+  border-radius: 20%;
+  transform: translateY(200%);
+  transform: translateX(-165%);
+}
+.bar {
+  border: 2px solid #42DCA3;
+  height: 10px;
+  width: 40px;
+  float: right;
+  margin-top: 5px;
+  margin-right: 4px;
+  margin-bottom: 10px;
+  border-radius: 20%;
+  transform: translateY(100%);
+  transform: translateX(-165%);
 }
