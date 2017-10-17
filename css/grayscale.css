@@ -132,7 +132,7 @@ a:focus {
     padding: 20px 20px;
     border-bottom: none;
     letter-spacing: 3px;
-    background: transparent;
+    background-color: transparent;
     -webkit-transition: background 0.3s ease-in-out, padding 0.3s ease-in-out;
     -moz-transition: background 0.3s ease-in-out, padding 0.3s ease-in-out;
     transition: background 0.3s ease-in-out, padding 0.3s ease-in-out;
@@ -144,6 +144,7 @@ a:focus {
     padding: 5px 20px;
     /*background: #F3F3F3;
 */    /*border-bottom: 2px solid #224F40;*/
+    background: rgba(0,0,0,0.6);
   }
 }
 .intro {
