@@ -254,9 +254,7 @@ a:focus {
     transform: scale(1);
   }
 }
-/*.content-section {
-  padding-top: 80px;
-}*/
+
 .skill-section {
   width: 100%;
   padding: 50px 0;
@@ -284,6 +282,11 @@ a:focus {
   }*/
   .contentskills-section {
     padding-top: 50px;
+  }
+  .contact-section {
+    padding-top: 100px;
+    padding-bottom: 20px;
+    margin-top: 40px;
   }
 }
 .btn {
@@ -343,7 +346,7 @@ ul.banner-social-buttons {
   }
 }
 footer {
-  padding: 10px 0;
+  padding: 5px 0;
 }
 footer p {
   margin: 0;
