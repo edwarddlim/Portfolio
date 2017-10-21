@@ -38,6 +38,16 @@ h3 {
   font-weight: 700;
   letter-spacing: 3px;
 }
+.h2project {
+  margin-bottom: 80px;
+  margin-top: 20px;
+}
+.h2story {
+  margin-top: 20px;
+}
+.h2skill {
+  margin-bottom: 35px;
+}
 
 p {
   margin: 0 0 10px;
@@ -276,17 +286,23 @@ a:focus {
   .content-section {
     padding-top: 100px;
     padding-bottom: 15px;
+    margin-bottom: 30px;
   }
   /*.skill-section {
     padding: 50px 0;
   }*/
   .contentskills-section {
-    padding-top: 50px;
+    padding-top: 60px;
   }
   .contact-section {
     padding-top: 100px;
     padding-bottom: 20px;
     margin-top: 40px;
+  }
+  .about-section {
+    padding-top: 100px;
+    padding-bottom: 15px;
+    margin-bottom: 40px;
   }
 }
 .btn {
