@@ -90,7 +90,6 @@ a:focus {
   color: black;
   background-color: rgba(255, 255, 255, 0.2);
   font-size: 12px;
-
 }
 .navbar-custom .navbar-toggle:focus,
 .navbar-custom .navbar-toggle:active {
@@ -128,14 +127,12 @@ a:focus {
   color: black;
 }
 .navbar-custom .nav li.active a {
-  /*background-color: rgba(255, 255, 255, 0.3);*/
-  /*background-color: #224F40;*/
-  border-bottom: 3px solid #42DCA3;
+  border-bottom: 3px solid white;
   background-color: transparent;
-  color: #42DCA3;
+  color: white;
 }
 .navbar-custom .nav li.active a:hover {
-  color: #42DCA3;
+  color: white;
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -152,9 +149,8 @@ a:focus {
   }*/
   .navbar-custom.top-nav-collapse {
     padding: 5px 20px;
-    /*background: #F3F3F3;
-*/    /*border-bottom: 2px solid #224F40;*/
-    background: rgba(0,0,0,0.6);
+    /*background: #F3F3F3;*/
+    background: rgba(0,0,0,0.3);
   }
 }
 .intro {
@@ -406,7 +402,6 @@ body {
     -webkit-transition: all .50s;
     -moz-transition: all .50s;
     transition: all .50s;
-    background-color: #42DCA3;
     border-radius: 8px;
 }
 
@@ -438,7 +433,7 @@ body {
 }
 .portfolio-box:hover .portfolio-box-caption {
     opacity: 1;
-    background: rgba(0,0,0,0.7);
+    background: rgba(66,220,163,0.9);
 }
 
 /*.portfolio-box:hover {
