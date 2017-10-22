@@ -431,7 +431,7 @@ body {
 }
 .portfolio-box:hover .portfolio-box-caption {
     opacity: 1;
-    background: rgba(66,220,163,0.9);
+    background: rgba(66,220,163,0.8);
 }
 
 @media(min-width:768px) {
