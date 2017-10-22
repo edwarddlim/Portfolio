@@ -132,7 +132,7 @@ a:focus {
   color: white;
 }
 .navbar-custom .nav li.active a:hover {
-  color: white;
+  color: #42DCA3;
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -326,18 +326,16 @@ a:focus {
   margin-top: 50px;
 }
 .btn-default:hover,
-.btn-default:focus {
-  border: 1px solid #42DCA3;
-  outline: none;
-  color: white;
-  background-color: #42DCA3;  
-}
+.btn-default:focus,
 .btn-default1:hover,
 .btn-default1:focus{
-  border: 1px solid #42DCA3;
+  border: 1px solid rgba(66,220,163,0.7);
   outline: none;
   color: white;
-  background-color: #42DCA3; 
+  background-color: #42DCA3;
+  background: rgba(66,220,163,0.7);
+}
+
 }
 ul.banner-social-buttons {
   margin-top: 0; 
@@ -435,10 +433,6 @@ body {
     opacity: 1;
     background: rgba(66,220,163,0.9);
 }
-
-/*.portfolio-box:hover {
-  opacity: 0.5;
-}*/
 
 @media(min-width:768px) {
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
@@ -540,8 +534,8 @@ div.panel {
 /*loader*/
 .spinner {
   position: absolute;
-  top: 47%;
-  left: 47%;
+  top: 48%;
+  left: 48%;
   width: 60px;
   height: 50px;
   text-align: center;
