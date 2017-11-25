@@ -150,7 +150,7 @@ a:focus {
   .navbar-custom.top-nav-collapse {
     padding: 5px 20px;
     /*background: #F3F3F3;*/
-    background: rgba(0,0,0,0.3);
+    background: rgba(66,220,163,0.5);
   }
 }
 .intro {
@@ -224,7 +224,7 @@ a:focus {
     padding: 50px 0;
   }*/
   .contentskills-section {
-    padding-top: 60px;
+    padding-top: 63px;
   }
   .contact-section {
     padding-top: 150px;
